@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    -->
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_skeleton">#E0E0E0</color>
+
+    <!-- Primary Color -->
+    <color name="primary">#8BC34A</color> <!-- Indaco brillante -->
+    <color name="primary_variant">#4CAF50</color> <!-- Versione scura del primario -->
+
+    <!-- Secondary Color -->
+    <color name="secondary">#009688</color> <!-- Teal brillante -->
+    <color name="secondary_variant">#00BCD4</color> <!-- Versione scura del secondario -->
+
+    <!-- Background Colors -->
+    <color name="background">#F5F5F5</color> <!-- Grigio chiaro per sfondi -->
+    <color name="surface">#FFFFFF</color> <!-- Bianco pulito per card o contenitori -->
+
+    <!-- Error Color -->
+    <color name="error">#CA1637</color> <!-- Rosso vivo per messaggi di errore -->
+
+    <!-- Neutral Colors -->
+    <color name="on_primary">#921515</color> <!-- Testo su colori primari -->
+    <color name="on_secondary">#FFFFFF</color> <!-- Testo su colori secondari -->
+    <color name="on_background">#212121</color> <!-- Testo su sfondi -->
+    <color name="on_surface">#FFFFFF</color> <!-- Testo su superfici -->
+
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#303030</color> <!-- Sfondo grigio scuro bilanciato -->
+    <color name="dark_surface">#424242</color> <!-- Grigio scuro per superfici -->
+    <color name="dark_on_background">#E0E0E0</color> <!-- Testo chiaro su sfondo -->
+    <color name="dark_on_surface">#FFFFFF</color> <!-- Testo bianco su superfici -->
+
+</resources>

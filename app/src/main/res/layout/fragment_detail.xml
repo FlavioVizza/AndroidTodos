@@ -1,0 +1,87 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.flaviovizza.androidtodos.ui.detail.TodoDetailViewModel"  />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Title Field -->
+            <EditText
+                android:id="@+id/editTextTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/detail_item_title"
+                android:autofillHints="@string/detail_item_title"
+                android:text="@={viewModel.title}"
+                android:inputType="text"
+                />
+
+            <!-- Description Field -->
+            <EditText
+                android:id="@+id/editTextDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/detail_item_description"
+                android:autofillHints="@string/detail_item_description"
+                android:text="@={viewModel.description}"
+                android:inputType="textMultiLine"
+                android:lines="5"
+                android:minLines="5"
+                android:scrollbars="vertical"
+                android:gravity="top"
+                android:layout_marginTop="8dp" />
+
+            <!-- Character Limit Message -->
+            <TextView
+                android:id="@+id/textViewCharLimit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/detail_item_character_limit_message"
+                android:textSize="12sp"
+                android:layout_marginTop="4dp" />
+
+            <!-- Done Switch -->
+            <Switch
+                android:id="@+id/switchDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/detail_item_done"
+                android:checked="@={viewModel.isDone}"
+                android:layout_marginTop="16dp"
+                android:visibility="gone" />
+
+            <!-- Create or Update Button -->
+            <Button
+                android:id="@+id/buttonCreateOrUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/primary_variant"
+                android:text="@string/detail_create_button"
+                android:layout_marginTop="16dp" />
+
+            <!-- Delete Button -->
+            <Button
+                android:id="@+id/buttonDelete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:backgroundTint="@color/error"
+                android:text="@string/detail_delete_button"
+                android:layout_marginTop="8dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+    </ScrollView>
+</layout>

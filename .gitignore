@@ -1,0 +1,42 @@
+# Gradle files
+.gradle/
+build/
+
+# Local configuration files
+local.properties
+
+# User-specific files
+.idea/
+.vscode/
+
+# Android Studio specific
+.iml
+*.iml
+
+# Kotlin specific
+.kotlin/
+
+# Eclipse specific
+.project
+.classpath
+
+# MacOS specific
+.DS_Store
+
+# Log files
+*.log
+
+# Java class files
+*.class
+
+# Generated files
+out/
+bin/
+
+# IntelliJ IDEA
+*.ipr
+*.iws
+*.idea/
+
+# NDK and CMake build files
+cmake-build-*/

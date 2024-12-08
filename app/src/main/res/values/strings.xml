@@ -1,0 +1,53 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">AndroidTodos</string>
+    <string name="page_home_title">Todos</string>
+    <string name="page_settings_title">Settings</string>
+    <string name="page_login_title">Login</string>
+    <string name="page_register_title">Register</string>
+    <string name="common_yes">Yes</string>
+    <string name="common_no">No</string>
+    <string name="common_username">Username</string>
+    <string name="common_email">Email</string>
+    <string name="common_password">Password</string>
+    <string name="common_unexpected_error">Sorry Unexpected error</string>
+    <!-- Login -->
+    <string name="login_button">Login</string>
+    <string name="login_do_not_have_account">Don\'t have an account?</string>
+    <string name="login_successful">Login Successful</string>
+    <string name="login_failed">"Login Failed"</string>
+    <string name="login_empty_email_and_password">Email and Password cannot be empty</string>
+    <string name="login_invalid_email_format">Invalid email format</string>
+    <!-- Register -->
+    <string name="register_button">Register</string>
+    <string name="register_success">Registration Success</string>
+    <string name="register_failed">Registration Failed</string>
+    <string name="register_all_fields_are_required">All fields are required</string>
+    <string name="register_invalid_email_format">Invalid email format</string>
+    <string name="register_invalid_username_or_password">Invalid username or password, password must have at least 8 characters</string>
+    <string name="register_invalid_password_or_confirm_password">password and confirm password must be equal</string>
+    <string name="register_confirm_password">Confirm Password</string>
+    <!-- Todos -->
+    <string name="home_add_task_button">Add task</string>
+    <string name="home_empty_list">There are no items in the list, add an item using the floating button at the bottom of the page</string>
+    <!-- TodoDetail -->
+    <string name="detail_title">Detail</string>
+    <string name="detail_item_title">Title</string>
+    <string name="detail_item_description">Description</string>
+    <string name="detail_item_character_limit_message">Maximum 150 characters</string>
+    <string name="detail_item_done">Done</string>
+    <string name="detail_create_button">Create</string>
+    <string name="detail_update_button">Update</string>
+    <string name="detail_delete_button">Delete</string>
+    <!-- Settings -->
+    <string name="settings_dark_theme">Dark Theme</string>
+    <string name="settings_select_language">Select Language</string>
+    <string name="settings_change_language_alert_title">Change Language</string>
+    <string name="settings_change_language_alert_body">Do you want to proceed with the selected language?</string>
+    <string name="settings_logout">Logout</string>
+    <string name="settings_confirm_logout">Confirm Logout</string>
+    <string name="settings_confirm_logout_message">Are you sure you want to quit?</string>
+    <!-- Language -->
+    <string name="en">English</string>
+    <string name="it">Italian</string>
+</resources>

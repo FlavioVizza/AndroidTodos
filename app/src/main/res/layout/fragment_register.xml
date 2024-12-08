@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <data>
+        <variable
+            name="viewModel"
+            type="com.flaviovizza.androidtodos.ui.register.RegisterViewModel"  />
+    </data>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="top">
+
+            <!-- Username Field -->
+            <EditText
+                android:id="@+id/username_edit_text"
+                android:text="@={viewModel.username}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/common_username"
+                android:autofillHints="@string/common_username"
+                android:inputType="text"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <!-- Email Field -->
+            <EditText
+                android:id="@+id/email_edit_text"
+                android:text="@={viewModel.email}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/common_email"
+                android:autofillHints="@string/common_email"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <!-- Password Field -->
+            <EditText
+                android:id="@+id/password_edit_text"
+                android:text="@={viewModel.password}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/common_password"
+                android:autofillHints="@string/common_password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <!-- Confirm Password Field -->
+            <EditText
+                android:id="@+id/confirm_password_edit_text"
+                android:text="@={viewModel.confirmPassword}"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/register_confirm_password"
+                android:autofillHints="@string/register_confirm_password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:layout_marginTop="8dp" />
+
+            <!-- Register Button -->
+            <Button
+                android:id="@+id/login_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/primary"
+                android:onClick="@{() -> viewModel.register()}"
+                android:text="@string/register_button"
+                android:textColor="#F4F4F4"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

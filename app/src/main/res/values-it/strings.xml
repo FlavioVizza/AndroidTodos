@@ -1,0 +1,53 @@
+<resources>
+    <!-- Common -->
+    <string name="app_name">AndroidTodos</string>
+    <string name="page_home_title">Todos</string>
+    <string name="page_settings_title">Impostazioni</string>
+    <string name="page_login_title">Login</string>
+    <string name="page_register_title">Registrati</string>
+    <string name="common_yes">Sì</string>
+    <string name="common_no">No</string>
+    <string name="common_username">Nome utente</string>
+    <string name="common_email">Email</string>
+    <string name="common_password">Password</string>
+    <string name="common_unexpected_error">Spiacenti, errore imprevisto</string>
+    <!-- Login -->
+    <string name="login_button">Accedi</string>
+    <string name="login_do_not_have_account">Non hai un account?</string>
+    <string name="login_successful">Accesso riuscito</string>
+    <string name="login_failed">Accesso fallito</string>
+    <string name="login_empty_email_and_password">Email e password non possono essere vuote</string>
+    <string name="login_invalid_email_format">Formato email non valido</string>
+    <!-- Register -->
+    <string name="register_button">Registrati</string>
+    <string name="register_success">Registrazione riuscita</string>
+    <string name="register_failed">Registrazione fallita</string>
+    <string name="register_all_fields_are_required">Tutti i campi sono obbligatori</string>
+    <string name="register_invalid_email_format">Formato email non valido</string>
+    <string name="register_invalid_username_or_password">Nome utente o password non validi, la password deve avere almeno 8 caratteri</string>
+    <string name="register_invalid_password_or_confirm_password">La password e la conferma password devono essere uguali</string>
+    <string name="register_confirm_password">Conferma Password</string>
+    <!-- Todos -->
+    <string name="home_add_task_button">Aggiungi attività</string>
+    <string name="home_empty_list">Nessun elemento trovato, aggiungine uno nuovo!</string>
+    <!-- TodoDetail -->
+    <string name="detail_title">Dettaglio</string>
+    <string name="detail_item_title">Titolo</string>
+    <string name="detail_item_description">Descrizione</string>
+    <string name="detail_item_character_limit_message">Massimo 150 caratteri</string>
+    <string name="detail_item_done">Completato</string>
+    <string name="detail_create_button">Crea</string>
+    <string name="detail_update_button">Aggiorna</string>
+    <string name="detail_delete_button">Cancella</string>
+    <!-- Settings -->
+    <string name="settings_dark_theme">Tema scuro</string>
+    <string name="settings_select_language">Seleziona lingua</string>
+    <string name="settings_change_language_alert_title">Cambio lingua</string>
+    <string name="settings_change_language_alert_body">Vuoi procedere con la lingua selezionata?</string>
+    <string name="settings_logout">Disconnetti</string>
+    <string name="settings_confirm_logout">Conferma Logout</string>
+    <string name="settings_confirm_logout_message">Vuoi procedere con questa operazione?</string>
+    <!-- Language -->
+    <string name="en">Inglese</string>
+    <string name="it">Italiano</string>
+</resources>
